@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "body-parser": "^1.20.2",
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
     "compression": "^1.7.4",
     "config": "^3.3.9",
     "ejs": "^3.1.9",
