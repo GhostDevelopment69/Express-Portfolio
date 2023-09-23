@@ -23,6 +23,7 @@ module.exports = function () {
     app.use('/', require('../app/routes/index.server.routes.js'));
     //require('../app/routes/index.server.routes.js')(app);
     app.use(express.static('./public'));
+    app.use(express.static("./public/Content"));
     app.use(express.static("./node_modules"));
 
     return app;
