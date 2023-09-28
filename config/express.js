@@ -24,6 +24,8 @@ module.exports = function () {
     //require('../app/routes/index.server.routes.js')(app);
     app.use(express.static('./public'));
     app.use(express.static("./public/Content"));
+    app.use(express.static("./public/Scripts"));
+    app.use(express.static("./public/Assets"));
     app.use(express.static("./node_modules"));
 
     return app;
