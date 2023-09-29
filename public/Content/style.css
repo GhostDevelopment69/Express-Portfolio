@@ -10,11 +10,36 @@ p {
     text-align: center;
 }
 
+.about-me-image {
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+    border: 5px solid #343a40;
+    box-shadow: 0 0 10px #343a40;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+
 .ms-para {
     text-align: justify;
     font-size: larger;
     text-indent: 30px;
     line-height: 1.7;
+}
+
+.ab-image-text {
+    text-align: justify;
+    font-size: 28px;
+    line-height: 1.7;
+    text-indent: 30px;
+    margin-left: 70px;
 }
 
 .main-logo {
