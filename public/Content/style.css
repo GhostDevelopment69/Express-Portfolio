@@ -1,11 +1,20 @@
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     text-align: center;
 }
 
 p {
     text-align: center;
+}
+
+.ms-para {
+    text-align: justify;
+    font-size: larger;
+    text-indent: 30px;
+    line-height: 1.7;
 }
 
 .main-logo {

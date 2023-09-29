@@ -26,6 +26,7 @@ module.exports = function () {
     app.use(express.static("./public/Content"));
     app.use(express.static("./public/Scripts"));
     app.use(express.static("./public/Assets"));
+    app.use(express.static("./views/partials"));
     app.use(express.static("./node_modules"));
 
     return app;
