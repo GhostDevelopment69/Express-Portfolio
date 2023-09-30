@@ -42,15 +42,45 @@ p {
     margin-left: 70px;
 }
 
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px) scale(1);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px) scale(1);
+    }
+}
+
 .main-logo {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    animation: fade-down 0.5s 0.4s backwards;
 }
 
 .navbar-brand {
     text-align: center;
     color: black;
+    animation: fade-up 1s 0.4s backwards;
+}
+
+.jumbotron {
+    animation: fade-down 0.5s 1.5s backwards;
 }
 
 ul.navbar-max {
@@ -60,7 +90,8 @@ ul.navbar-max {
     /* Display the list items inline */
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px
+    font-size: 20px;
+    animation: fade-up 1s 0.4s backwards;
 }
 
 ul.navbar-max li {
