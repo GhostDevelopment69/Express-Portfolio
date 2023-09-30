@@ -66,6 +66,10 @@ p {
     }
 }
 
+.album {
+    animation: fade-up 1s 2.5s backwards;
+}
+
 .main-logo {
     margin-left: auto;
     margin-right: auto;
