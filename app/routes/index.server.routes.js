@@ -1,3 +1,5 @@
+//Jeremy Fernandez 301076715 October 2nd, 2023
+
 var express = require('express');
 var router = express.Router();
 
@@ -17,6 +19,9 @@ router.get('/contact', function (req, res, next) {
 });
 router.get('/services', function (req, res, next) {
     res.render('services', { title: 'Services' });
+});
+router.post('/submit', function (req, res, next) {
+    res.redirect('/');
 });
 
 module.exports = router;
