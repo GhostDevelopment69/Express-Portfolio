@@ -1,3 +1,5 @@
+//Jeremy Fernandez 301076715 October 2nd, 2023
+
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var express = require('./config/express');
