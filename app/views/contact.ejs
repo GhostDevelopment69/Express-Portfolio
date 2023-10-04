@@ -8,47 +8,58 @@
                 <h1 class="display-4">Have a Project or Inquiry in Mind?</h1>
                 <h3>Please fill out the form below</h3>
                 <br>
-                <form action="/submit" method="POST">
-                    <div class="row">
-                        <div class="col">
-                            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name"
-                                aria-describedby="firstName" required>
+                <div class="FormContainer">
+                    <form action="/submit" method="POST">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name"
+                                    aria-describedby="firstName" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name"
+                                    aria-describedby="lastName" required>
+                            </div>
                         </div>
-                        <div class="col">
-                            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name"
-                                aria-describedby="lastName" required>
+                        <div class="mb-3">
+                            <label for="InputEmail1" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                                required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputEmail1" class="form-label">Email address:</label>
-                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputNumber" class="form-label">Phone Number:</label>
-                        <input type="number" class="form-control" id="InputNumber" aria-describedby="InputNumber"
-                            required>
-                        <div id="numberHelp" class="form-text">We'll never share your number with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="FormControlSelect1" class="form-label">Reason for Contact:</label>
-                        <select class="form-select" aria-label="Select Options" required>
-                            <option value="1">General Inquiry</option>
-                            <option value="2">Project Inquiry</option>
-                            <option value="3">Other</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="FormControlTextarea1" class="form-label">Enter your message:</label>
-                        <textarea class="form-control" id="FormControlTextarea1" rows="3" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="reset" class="btn btn-primary">Reset</button>
-                </form>
-            </div>
-            <div class="jumbotron">
-                <h1 class="display-4">Contact Information</h1>
-                <h3>Email:</h3>
+                        <div class="mb-3">
+                            <label for="InputNumber" class="form-label">Phone Number:</label>
+                            <input type="number" class="form-control" id="InputNumber" aria-describedby="InputNumber"
+                                required>
+                            <div id="numberHelp" class="form-text">We'll never share your number with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlSelect1" class="form-label">Reason for Contact:</label>
+                            <select class="form-select" aria-label="Select Options" required>
+                                <option value="1">General Inquiry</option>
+                                <option value="2">Project Inquiry</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlTextarea1" class="form-label">Enter your message:</label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                    </form>
+                </div>
+                <div class="ContactCard">
+                    <h1 class="display-4">Contact Information</h2>
+                        <h3>Name: Jeremy Fernandez</h3>
+                        <h3>Program: Software Engineering Technician</h3>
+                        <h3>Email: <a
+                                href="mailto:jfern100@my.centennialcollege.ca">jfern100@my.centennialcollege.ca</a></h3>
+                        <h3>Toronto, Ontario</h3>
+                        <a href="https://github.com/GhostDevelopment69" target="_blank" role="button"
+                            class="btn btn-outline-primary my-2">Github</a>
+                        <a href="https://www.linkedin.com/in/jeremy-fernandez-65a9021a1/" target="_blank" role="button"
+                            class="btn btn-outline-primary my-2">LinkedIn</a>
+                </div>
             </div>
         </main>
 

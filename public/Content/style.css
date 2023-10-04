@@ -66,6 +66,20 @@ p {
     }
 }
 
+.FormContainer {
+    display: flex;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactCard {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .album {
     animation: fade-up 1s 2.5s backwards;
 }
