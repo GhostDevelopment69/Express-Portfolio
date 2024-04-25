@@ -4,6 +4,12 @@ Thank you for checking out this Assignment!
 
 I was tasked to create a portfolio using the in class template and the result is this web page.
 
+# Deployed on Render!
+
+Click here to go to Deployment
+
+https://jeremys-portfolio.onrender.com/ 
+
 # Want to see it in action?
 
 #Steps
