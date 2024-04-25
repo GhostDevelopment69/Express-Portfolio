@@ -75,7 +75,6 @@ p {
 
 .ContactCard {
     display: flex;
-    float: right;
     flex-direction: column;
     justify-content: center;
 }
