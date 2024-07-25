@@ -12,7 +12,7 @@ https://jeremys-portfolio.onrender.com/
 
 # Want to see it in action?
 
-#Steps
+## Steps
 1. Download zip file
 2. Extract into a folder
 3. Make sure NODE and NPM are installed
